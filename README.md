@@ -1,23 +1,22 @@
 # Momo: Love Your Time
 
-**Momo** is a mindful focus companion that helps people maintain healthier relationships with their screens.  
-It monitors time spent in selected apps and sends simple signals to a Bluetooth-connected device that reacts visually — helping users recognize when it’s time to take a break.
+Momo is a personal wellbeing companion that helps people stay mindful of their screen habits.  
+It encourages focus and balance by providing gentle feedback when selected apps are used for longer than intended.
 
 ## Purpose
-To make people more aware of how they use their time through gentle feedback, not control.
+Momo promotes digital wellbeing, not restriction.  
+The app helps users notice when their attention is being pulled away and gently encourages them to return to more intentional use of their devices.
 
-## How it works
-1. The user selects which apps they want Momo to monitor.
-2. When time spent exceeds a threshold, Momo sends a small signal to a connected BLE device.
-3. The device reacts (e.g., changing color) to indicate focus, distraction, or recovery.
-4. No data is stored or shared — everything stays on device.
+## How It Works
+- Users choose the apps they want Momo to monitor.
+- Momo uses Apple's Family Controls and DeviceActivity frameworks to detect time spent in those apps.
+- When usage exceeds a personal threshold, the app updates the user's focus state.
+- No data is collected, stored, or shared externally. Everything runs privately on device.
 
-## Built with
-- **SwiftUI** (iOS app)
-- **Arduino BLE Nano 33** (hardware companion)
-- **Apple Family Controls API**
-- **DeviceActivity framework**
+## Privacy
+Momo follows Apple's guidelines for digital wellbeing and uses only approved system APIs.  
+No personal information, app names, or usage logs leave the user's device.
 
 ---
 
-> *Momo is a reflection tool, not a restriction tool.*
+Momo Loves Your Time
